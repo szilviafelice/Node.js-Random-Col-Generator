@@ -1,0 +1,17 @@
+{
+  "name": "Node.js-Random-Col-Generator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This is an app, which creates random colors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Szilvia",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-upleveled": "^5.0.4",
+    "typescript": "^5.2.2"
+  }
+}

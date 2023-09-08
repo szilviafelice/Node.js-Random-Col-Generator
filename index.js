@@ -1,17 +1,18 @@
-const randomColor = import('randomcolor');
-const color = randomColor();
+import randomColor from 'randomcolor';
 
-randomColor({
-  luminosity: 'random',
-  hue: 'random',
+const color = randomColor({
+  luminosity: 'light',
+  hue: 'red',
 });
-console.log(randomColor);
 
-function randomColorBlock() {
-  const blockSize = 31;
-  const blockHeight = 9;
-  const blockColor = randomColor();
-}
+console.log(color);
 
-const blockColor = randomColorBlock();
-console.log(blockColor);
+console.log(`###############################
+###############################
+###############################
+#####                     #####
+#####       #edff28       #####
+#####                     #####
+###############################
+###############################
+###############################`);
